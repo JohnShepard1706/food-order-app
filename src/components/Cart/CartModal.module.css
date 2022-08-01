@@ -1,0 +1,61 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+.content {
+  padding: 1rem;
+  position: relative;
+}
+.total {
+  display: inline;
+}
+.amount {
+  display: inline;
+  font-weight: bold;
+  font-size: large;
+  margin-right: 1em;
+  position: absolute;
+  right: 0;
+}
+.order {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.order button {
+  margin-right: 15px;
+  background-color: rgba(127, 38, 6, 255);
+  /* font-weight: bold; */
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  height: 30px;
+  width: 110px;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.order button:hover {
+  background: rgba(90, 28, 4, 255);
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}

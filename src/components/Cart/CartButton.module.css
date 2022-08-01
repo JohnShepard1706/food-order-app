@@ -1,0 +1,29 @@
+.cart {
+  cursor: pointer;
+  margin-top: -50px;
+  border-radius: 30px;
+  padding-top: 20px;
+  background-color: rgba(68, 22, 1, 255);
+  text-align: center;
+  color: white;
+  background-color: rgba(68, 22, 1, 255);
+  margin-left: 1200px;
+  width: 250px;
+  height: 60px;
+}
+.cart:hover {
+  background: rgba(38, 15, 0, 255);
+}
+.text {
+  margin-left: 13px;
+}
+.zero {
+  background-color: rgba(175, 60, 22, 255);
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 10px;
+  margin-left: 13px;
+}

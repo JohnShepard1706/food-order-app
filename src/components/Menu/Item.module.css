@@ -1,0 +1,25 @@
+.name {
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+.desc {
+  margin: 0;
+  font-style: italic;
+}
+.price {
+  margin-top: 0px;
+  margin-left: 0px;
+  color: rgba(156, 84, 31, 255);
+  font-weight: 600;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+th {
+  text-align: left;
+}
+.firstcol {
+  width: 400px;
+}
+.cartcol {
+  padding-left: 330px;
+  text-align: right;
+}

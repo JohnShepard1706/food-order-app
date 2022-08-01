@@ -1,0 +1,23 @@
+#amount {
+  width: 40px;
+  margin-left: 10px;
+}
+.amount {
+  font-weight: bold;
+}
+.add {
+  background-color: rgba(127, 38, 6, 255);
+  /* font-weight: bold; */
+  color: white;
+  border-radius: 20px;
+  margin-top: 10px;
+  height: 30px;
+  width: 110px;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.add:hover {
+  background: rgba(90, 28, 4, 255);
+}
