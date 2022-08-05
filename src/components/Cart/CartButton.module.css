@@ -1,4 +1,5 @@
 .cart {
+  position: absolute;
   cursor: pointer;
   margin-top: -50px;
   border-radius: 30px;
@@ -7,7 +8,8 @@
   text-align: center;
   color: white;
   background-color: rgba(68, 22, 1, 255);
-  margin-left: 1200px;
+  /* margin-left: 1200px; */
+  right: 150px;
   width: 250px;
   height: 60px;
 }

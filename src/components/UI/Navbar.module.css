@@ -1,5 +1,6 @@
 .mynav {
   height: 100px;
+  width: 100vw;
   background-color: rgba(126, 38, 6, 255);
   padding-top: 25px;
   text-align: left;
